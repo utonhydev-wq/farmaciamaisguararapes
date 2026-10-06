@@ -9,7 +9,6 @@ import { WhatsAppSection } from './components/WhatsAppSection';
 import { InstagramSection } from './components/InstagramSection';
 import { LocationSection } from './components/LocationSection';
 import { ServicesSection } from './components/ServicesSection';
-import { PromotionsSection } from './components/PromotionsSection';
 import { Footer } from './components/Footer';
 import { ShareModal } from './components/ShareModal';
 import { WhatsAppIcon } from './components/Icons';
@@ -44,10 +43,7 @@ export default function App() {
         {/* 5. Prepared Services & Links Area */}
         <ServicesSection />
 
-        {/* 6. Promotions Prepared Section */}
-        <PromotionsSection />
-
-        {/* 7. Footer */}
+        {/* 6. Footer */}
         <Footer />
       </main>
 
