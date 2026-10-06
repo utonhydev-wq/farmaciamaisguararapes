@@ -1,0 +1,6 @@
+{
+  "name": "Farmácia Mais Guararapes",
+  "description": "Central oficial de links da Farmácia Mais Guararapes. Fale conosco pelo WhatsApp, siga nosso Instagram e encontre nossa localização.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
