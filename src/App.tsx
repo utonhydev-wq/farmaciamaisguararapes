@@ -9,7 +9,6 @@ import { WhatsAppSection } from './components/WhatsAppSection';
 import { InstagramSection } from './components/InstagramSection';
 import { LocationSection } from './components/LocationSection';
 import { GoogleReviewSection } from './components/GoogleReviewSection';
-import { ServicesSection } from './components/ServicesSection';
 import { Footer } from './components/Footer';
 import { ShareModal } from './components/ShareModal';
 import { WhatsAppIcon } from './components/Icons';
@@ -43,9 +42,6 @@ export default function App() {
 
         {/* 5. Google Reviews */}
         <GoogleReviewSection />
-
-        {/* 6. Prepared Services & Links Area */}
-        <ServicesSection />
 
         {/* 6. Footer */}
         <Footer />
