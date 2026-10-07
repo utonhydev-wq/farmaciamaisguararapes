@@ -1,7 +1,7 @@
 import React from 'react';
 import { PHARMACY_INFO } from '../data/links';
 import { InstagramIcon, WhatsAppIcon } from './Icons';
-import { MapPin, ShieldCheck, Heart } from 'lucide-react';
+import { MapPin, ShieldCheck, Heart, Star } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -53,6 +53,18 @@ export const Footer: React.FC = () => {
         >
           <MapPin className="w-3.5 h-3.5 text-emerald-600" />
           <span>Localização</span>
+        </a>
+
+        <span className="text-slate-300" aria-hidden="true">·</span>
+
+        <a
+          href={PHARMACY_INFO.googleReviewUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 hover:text-amber-600 transition-colors"
+        >
+          <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
+          <span>Avaliar</span>
         </a>
       </nav>
 

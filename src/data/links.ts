@@ -19,6 +19,7 @@ export const PHARMACY_INFO = {
   instagramUrl: "https://www.instagram.com/farmaciamaisguararapes?stkn=MXUxYjB1M3NjanA2",
   instagramHandle: "@farmaciamaisguararapes",
   mapsUrl: "https://maps.app.goo.gl/XWpCkERzXi4jJh9B7",
+  googleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJk5a9IOrhqgcRpmZNXDAATE8",
   whatsAppList: [
     {
       id: "whatsapp-1",
