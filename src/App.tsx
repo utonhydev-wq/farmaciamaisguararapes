@@ -50,7 +50,7 @@ export default function App() {
       {/* Quick sticky floating thumb WhatsApp pill for seamless mobile conversion */}
       <div className="fixed bottom-4 right-4 z-40 sm:hidden">
         <motion.a
-          href={PHARMACY_INFO.whatsAppList[0].url}
+          href={PHARMACY_INFO.whatsAppList[1].url}
           target="_blank"
           rel="noopener noreferrer"
           whileTap={{ scale: 0.92 }}
