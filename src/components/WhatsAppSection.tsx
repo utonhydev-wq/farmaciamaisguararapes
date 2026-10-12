@@ -130,10 +130,15 @@ export const WhatsAppSection: React.FC = () => {
                   <WhatsAppIcon className="w-4 h-4 text-white" />
                 </div>
                 <div className="flex flex-col text-left">
-                  <span className="text-base font-bold tracking-tight">
-                    {item.label}
-                  </span>
-                  <span className="text-[11px] text-emerald-100 font-normal leading-none mt-0.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-base font-bold tracking-tight">
+                      {item.label}
+                    </span>
+                    <span className="text-xs font-medium text-emerald-100/90 font-mono tracking-tight bg-emerald-700/60 px-2 py-0.5 rounded-md">
+                      {item.displayPhone}
+                    </span>
+                  </div>
+                  <span className="text-[11px] text-emerald-100 font-normal leading-none mt-1">
                     {status.isOnline ? 'Toque para iniciar conversa' : 'Envie sua mensagem no WhatsApp'}
                   </span>
                 </div>

@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
         <span className="text-slate-300" aria-hidden="true">·</span>
 
         <a
-          href={PHARMACY_INFO.whatsAppList[0].url}
+          href={PHARMACY_INFO.whatsAppList[1].url}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 hover:text-emerald-600 transition-colors"

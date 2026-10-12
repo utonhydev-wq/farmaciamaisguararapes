@@ -1,6 +1,8 @@
 export interface WhatsAppContact {
   id: string;
   label: string;
+  phone: string;
+  displayPhone: string;
   url: string;
   description?: string;
 }
@@ -24,17 +26,23 @@ export const PHARMACY_INFO = {
     {
       id: "whatsapp-1",
       label: "WhatsApp 1",
-      url: "https://w.app/telefone1",
+      phone: "818519981",
+      displayPhone: "(81) 8519-981",
+      url: "https://wa.me/55818519981",
     },
     {
       id: "whatsapp-2",
       label: "WhatsApp 2",
-      url: "https://w.app/telefone2",
+      phone: "8187150555",
+      displayPhone: "(81) 8715-0555",
+      url: "https://wa.me/558187150555",
     },
     {
       id: "whatsapp-3",
       label: "WhatsApp 3",
-      url: "https://w.app/telefone3",
+      phone: "8187340836",
+      displayPhone: "(81) 8734-0836",
+      url: "https://wa.me/558187340836",
     },
   ] as WhatsAppContact[],
   preparedServices: [
