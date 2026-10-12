@@ -26,9 +26,9 @@ export const PHARMACY_INFO = {
     {
       id: "whatsapp-1",
       label: "WhatsApp 1",
-      phone: "818519981",
-      displayPhone: "(81) 8519-981",
-      url: "https://wa.me/55818519981",
+      phone: "8185199816",
+      displayPhone: "(81) 8519-9816",
+      url: "https://wa.me/558185199816",
     },
     {
       id: "whatsapp-2",
